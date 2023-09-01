@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+.button{
+  width: 66px;
+  height: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.row{
+  margin: 8px 0;
+  background-color: black;
+  color: white;
+}
+
+.row input{
+  background-color: transparent;
+  color: white;
+  width: 291px;
+  font-size: 32px;
+  font-size: bold;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.row:nth-child(2) .button:nth-child(1), /* Clear button */
+.row:nth-child(2) .button:nth-child(2), /* Prceent button */
+.row:nth-child(2) .button:nth-child(3), /* Memory+ button */
+.row:nth-child(6) .button:nth-child(1), /* 0 button */
+.row:nth-child(6) .button:nth-child(2), /* Decimal button */
+.row:nth-child(6) .button:nth-child(3), /* Equal button */
+.row:nth-child(6) .button:nth-child(4)  /* Subtraction button */
+{ 
+  background-color: #D3D3D3	;
+  color: black;
+}
+
+.row:nth-child(2) .button:nth-child(4), /* Memory- button */
+.row:nth-child(3) .button:nth-child(4), /* Multiplication button */
+.row:nth-child(4) .button:nth-child(4), /* Division button */
+.row:nth-child(5) .button:nth-child(4) /* Addition button */
+{ 
+  background-color: #FE9505; 
+  color: whitesmoke;
+}
+
+.row:nth-child(3) .button:nth-child(1), /* 7 button */
+.row:nth-child(3) .button:nth-child(2), /* 8 button */
+.row:nth-child(3) .button:nth-child(3), /* 9 button */
+.row:nth-child(4) .button:nth-child(1), /* 4 button */
+.row:nth-child(4) .button:nth-child(2), /* 5 button */
+.row:nth-child(4) .button:nth-child(3), /* 6 button */
+.row:nth-child(5) .button:nth-child(1), /* 1 button */
+.row:nth-child(5) .button:nth-child(2), /* 2 button */
+.row:nth-child(5) .button:nth-child(3) /* 3 button */
+{
+  background-color: #808080;
+  color: white;
+} 
